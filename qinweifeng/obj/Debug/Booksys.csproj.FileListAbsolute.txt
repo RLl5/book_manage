@@ -1,0 +1,15 @@
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.exe.config
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.exe
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.pdb
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\Booksys.csproj.AssemblyReference.cache
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.AddOrEditBook.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.AddUser.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.BorrowBookForm.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Login.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Main.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Properties.Resources.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.ReturnBookForm.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\Booksys.csproj.GenerateResource.cache
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\Booksys.csproj.CoreCompileInputs.cache
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.exe
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.pdb

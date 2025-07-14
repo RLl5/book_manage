@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Booksys_DBDataSet1" targetNamespace="http://tempuri.org/Booksys_DBDataSet1.xsd" xmlns:mstns="http://tempuri.org/Booksys_DBDataSet1.xsd" xmlns="http://tempuri.org/Booksys_DBDataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Booksys_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Booksys_DBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.qinweifeng.Properties.Settings.GlobalReference.Default.Booksys_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="View_BorrowRecordsTableAdapter" GeneratorDataComponentClassName="View_BorrowRecordsTableAdapter" Name="View_BorrowRecords" UserDataComponentName="View_BorrowRecordsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Booksys_DBConnectionString (Settings)" DbObjectName="Booksys_DB.dbo.View_BorrowRecords" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT RecordID, Borrower, BookTitle, BorrowDate, DueDate, ReturnDate, Status, OverdueDays FROM dbo.View_BorrowRecords</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="RecordID" DataSetColumn="RecordID" />
+              <Mapping SourceColumn="Borrower" DataSetColumn="Borrower" />
+              <Mapping SourceColumn="BookTitle" DataSetColumn="BookTitle" />
+              <Mapping SourceColumn="BorrowDate" DataSetColumn="BorrowDate" />
+              <Mapping SourceColumn="DueDate" DataSetColumn="DueDate" />
+              <Mapping SourceColumn="ReturnDate" DataSetColumn="ReturnDate" />
+              <Mapping SourceColumn="Status" DataSetColumn="Status" />
+              <Mapping SourceColumn="OverdueDays" DataSetColumn="OverdueDays" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Booksys_DBDataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Booksys_DBDataSet1" msprop:Generator_UserDSName="Booksys_DBDataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="View_BorrowRecords" msprop:Generator_TableClassName="View_BorrowRecordsDataTable" msprop:Generator_TableVarName="tableView_BorrowRecords" msprop:Generator_RowChangedName="View_BorrowRecordsRowChanged" msprop:Generator_TablePropName="View_BorrowRecords" msprop:Generator_RowDeletingName="View_BorrowRecordsRowDeleting" msprop:Generator_RowChangingName="View_BorrowRecordsRowChanging" msprop:Generator_RowEvHandlerName="View_BorrowRecordsRowChangeEventHandler" msprop:Generator_RowDeletedName="View_BorrowRecordsRowDeleted" msprop:Generator_RowClassName="View_BorrowRecordsRow" msprop:Generator_UserTableName="View_BorrowRecords" msprop:Generator_RowEvArgName="View_BorrowRecordsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RecordID" msprop:Generator_ColumnVarNameInTable="columnRecordID" msprop:Generator_ColumnPropNameInRow="RecordID" msprop:Generator_ColumnPropNameInTable="RecordIDColumn" msprop:Generator_UserColumnName="RecordID" type="xs:int" />
+              <xs:element name="Borrower" msprop:Generator_ColumnVarNameInTable="columnBorrower" msprop:Generator_ColumnPropNameInRow="Borrower" msprop:Generator_ColumnPropNameInTable="BorrowerColumn" msprop:Generator_UserColumnName="Borrower">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BookTitle" msprop:Generator_ColumnVarNameInTable="columnBookTitle" msprop:Generator_ColumnPropNameInRow="BookTitle" msprop:Generator_ColumnPropNameInTable="BookTitleColumn" msprop:Generator_UserColumnName="BookTitle">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BorrowDate" msprop:Generator_ColumnVarNameInTable="columnBorrowDate" msprop:Generator_ColumnPropNameInRow="BorrowDate" msprop:Generator_ColumnPropNameInTable="BorrowDateColumn" msprop:Generator_UserColumnName="BorrowDate" type="xs:dateTime" />
+              <xs:element name="DueDate" msprop:Generator_ColumnVarNameInTable="columnDueDate" msprop:Generator_ColumnPropNameInRow="DueDate" msprop:Generator_ColumnPropNameInTable="DueDateColumn" msprop:Generator_UserColumnName="DueDate" type="xs:dateTime" />
+              <xs:element name="ReturnDate" msprop:Generator_ColumnVarNameInTable="columnReturnDate" msprop:Generator_ColumnPropNameInRow="ReturnDate" msprop:Generator_ColumnPropNameInTable="ReturnDateColumn" msprop:Generator_UserColumnName="ReturnDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_UserColumnName="Status" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OverdueDays" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnOverdueDays" msprop:Generator_ColumnPropNameInRow="OverdueDays" msprop:Generator_ColumnPropNameInTable="OverdueDaysColumn" msprop:Generator_UserColumnName="OverdueDays" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:View_BorrowRecords" />
+      <xs:field xpath="mstns:RecordID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Booksys_DBDataSet" targetNamespace="http://tempuri.org/Booksys_DBDataSet.xsd" xmlns:mstns="http://tempuri.org/Booksys_DBDataSet.xsd" xmlns="http://tempuri.org/Booksys_DBDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Booksys_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Booksys_DBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.qinweifeng.Properties.Settings.GlobalReference.Default.Booksys_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UserBookViewTableAdapter" GeneratorDataComponentClassName="UserBookViewTableAdapter" Name="UserBookView" UserDataComponentName="UserBookViewTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Booksys_DBConnectionString (Settings)" DbObjectName="Booksys_DB.dbo.UserBookView" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT User_ID, User_Name, User_Type, User_PhoneNumber, Book_ID, Book_Title, Book_Author, Book_Genre, Book_ISBN, Book_TotalCopies, Book_ImagePath FROM dbo.UserBookView</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="User_ID" DataSetColumn="User_ID" />
+              <Mapping SourceColumn="User_Name" DataSetColumn="User_Name" />
+              <Mapping SourceColumn="User_Type" DataSetColumn="User_Type" />
+              <Mapping SourceColumn="User_PhoneNumber" DataSetColumn="User_PhoneNumber" />
+              <Mapping SourceColumn="Book_ID" DataSetColumn="Book_ID" />
+              <Mapping SourceColumn="Book_Title" DataSetColumn="Book_Title" />
+              <Mapping SourceColumn="Book_Author" DataSetColumn="Book_Author" />
+              <Mapping SourceColumn="Book_Genre" DataSetColumn="Book_Genre" />
+              <Mapping SourceColumn="Book_ISBN" DataSetColumn="Book_ISBN" />
+              <Mapping SourceColumn="Book_TotalCopies" DataSetColumn="Book_TotalCopies" />
+              <Mapping SourceColumn="Book_ImagePath" DataSetColumn="Book_ImagePath" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Booksys_DBDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Booksys_DBDataSet" msprop:Generator_UserDSName="Booksys_DBDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UserBookView" msprop:Generator_TableClassName="UserBookViewDataTable" msprop:Generator_RowEvArgName="UserBookViewRowChangeEvent" msprop:Generator_TableVarName="tableUserBookView" msprop:Generator_TablePropName="UserBookView" msprop:Generator_RowDeletingName="UserBookViewRowDeleting" msprop:Generator_RowChangingName="UserBookViewRowChanging" msprop:Generator_RowDeletedName="UserBookViewRowDeleted" msprop:Generator_RowEvHandlerName="UserBookViewRowChangeEventHandler" msprop:Generator_UserTableName="UserBookView" msprop:Generator_RowChangedName="UserBookViewRowChanged" msprop:Generator_RowClassName="UserBookViewRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="User_ID" msprop:Generator_ColumnVarNameInTable="columnUser_ID" msprop:Generator_ColumnPropNameInRow="User_ID" msprop:Generator_ColumnPropNameInTable="User_IDColumn" msprop:Generator_UserColumnName="User_ID" type="xs:int" />
+              <xs:element name="User_Name" msprop:Generator_ColumnVarNameInTable="columnUser_Name" msprop:Generator_ColumnPropNameInRow="User_Name" msprop:Generator_ColumnPropNameInTable="User_NameColumn" msprop:Generator_UserColumnName="User_Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="User_Type" msprop:Generator_ColumnVarNameInTable="columnUser_Type" msprop:Generator_ColumnPropNameInRow="User_Type" msprop:Generator_ColumnPropNameInTable="User_TypeColumn" msprop:Generator_UserColumnName="User_Type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="User_PhoneNumber" msprop:Generator_ColumnVarNameInTable="columnUser_PhoneNumber" msprop:Generator_ColumnPropNameInRow="User_PhoneNumber" msprop:Generator_ColumnPropNameInTable="User_PhoneNumberColumn" msprop:Generator_UserColumnName="User_PhoneNumber">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="11" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_ID" msprop:Generator_ColumnVarNameInTable="columnBook_ID" msprop:Generator_ColumnPropNameInRow="Book_ID" msprop:Generator_ColumnPropNameInTable="Book_IDColumn" msprop:Generator_UserColumnName="Book_ID" type="xs:int" />
+              <xs:element name="Book_Title" msprop:Generator_ColumnVarNameInTable="columnBook_Title" msprop:Generator_ColumnPropNameInRow="Book_Title" msprop:Generator_ColumnPropNameInTable="Book_TitleColumn" msprop:Generator_UserColumnName="Book_Title">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Author" msprop:Generator_ColumnVarNameInTable="columnBook_Author" msprop:Generator_ColumnPropNameInRow="Book_Author" msprop:Generator_ColumnPropNameInTable="Book_AuthorColumn" msprop:Generator_UserColumnName="Book_Author">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_Genre" msprop:Generator_ColumnVarNameInTable="columnBook_Genre" msprop:Generator_ColumnPropNameInRow="Book_Genre" msprop:Generator_ColumnPropNameInTable="Book_GenreColumn" msprop:Generator_UserColumnName="Book_Genre" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_ISBN" msprop:Generator_ColumnVarNameInTable="columnBook_ISBN" msprop:Generator_ColumnPropNameInRow="Book_ISBN" msprop:Generator_ColumnPropNameInTable="Book_ISBNColumn" msprop:Generator_UserColumnName="Book_ISBN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Book_TotalCopies" msprop:Generator_ColumnVarNameInTable="columnBook_TotalCopies" msprop:Generator_ColumnPropNameInRow="Book_TotalCopies" msprop:Generator_ColumnPropNameInTable="Book_TotalCopiesColumn" msprop:Generator_UserColumnName="Book_TotalCopies" type="xs:int" />
+              <xs:element name="Book_ImagePath" msprop:Generator_ColumnVarNameInTable="columnBook_ImagePath" msprop:Generator_ColumnPropNameInRow="Book_ImagePath" msprop:Generator_ColumnPropNameInTable="Book_ImagePathColumn" msprop:Generator_UserColumnName="Book_ImagePath" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:UserBookView" />
+      <xs:field xpath="mstns:User_ID" />
+      <xs:field xpath="mstns:Book_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

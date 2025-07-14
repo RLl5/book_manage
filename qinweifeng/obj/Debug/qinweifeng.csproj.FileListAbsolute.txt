@@ -1,0 +1,29 @@
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.exe.config
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.exe
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.pdb
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.AssemblyReference.cache
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.SuggestedBindingRedirects.cache
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.AddOrEditBook.resources
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.AddUser.resources
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Login.resources
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Main.resources
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Properties.Resources.resources
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.GenerateResource.cache
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.CoreCompileInputs.cache
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.exe
+E:\lzy\新建文件夹 (2)\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.pdb
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.exe.config
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.exe
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\bin\Debug\qinweifeng.pdb
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.AssemblyReference.cache
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.AddOrEditBook.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.AddUser.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Login.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Main.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.Properties.Resources.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.GenerateResource.cache
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.csproj.CoreCompileInputs.cache
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.exe
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.pdb
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.BorrowBookForm.resources
+D:\Winfrom版图书管理系统\qinweifeng\qinweifeng\qinweifeng\obj\Debug\qinweifeng.ReturnBookForm.resources
